@@ -1731,13 +1731,11 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"parry"
-		],
-		"power": "light",
+		"properties": [],
+		"power": "medium",
 		"frames": 13,
 		"advhit": 7,
-		"advguard": 2,
+		"advguard": 3,
 		"barehand": false,
 		"sword": true
 	},
@@ -4598,7 +4596,7 @@
 			}
 		],
 		"properties": [
-			"stopping",
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 20,
