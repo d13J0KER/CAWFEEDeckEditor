@@ -4608,7 +4608,7 @@
 	{
 		"name": "Drunken Smash",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
