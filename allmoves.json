@@ -628,13 +628,11 @@
 				"hit": "R"
 			}
 		],
-		"properties": [
-			"ducking"
-		],
-		"power": "light",
+		"properties": [],
+		"power": "medium",
 		"frames": 12,
-		"advhit": 4,
-		"advguard": -1,
+		"advhit": 6,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -650,13 +648,11 @@
 				"hit": "R"
 			}
 		],
-		"properties": [
-			"ducking"
-		],
-		"power": "light",
+		"properties": [],
+		"power": "medium",
 		"frames": 12,
-		"advhit": 4,
-		"advguard": -1,
+		"advhit": 6,
+		"advguard": 4,
 		"barehand": false,
 		"sword": true
 	},
@@ -683,7 +679,7 @@
 	{
 		"name": "Uraken",
 		"style": "faejin",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -708,7 +704,7 @@
 	{
 		"name": "Uraken",
 		"style": "faejin",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -729,7 +725,7 @@
 		"name": "Duster Blow",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -766,7 +762,7 @@
 		"power": "medium",
 		"frames": 12,
 		"advhit": 7,
-		"advguard": 1,
+		"advguard": 3,
 		"barehand": true,
 		"sword": true
 	},
@@ -774,7 +770,7 @@
 		"name": "Chin Palm",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -799,7 +795,7 @@
 		"name": "Chin Palm",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -818,7 +814,7 @@
 	{
 		"name": "Backfall Strike",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -835,7 +831,7 @@
 		"properties": [
 			"double"
 		],
-		"power": "light",
+		"power": "medium",
 		"frames": 12,
 		"advhit": 7,
 		"advguard": 2,
@@ -916,7 +912,7 @@
 		"name": "Kitsuneo Cut",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -975,9 +971,9 @@
 		],
 		"properties": [],
 		"power": "medium",
-		"frames": 12,
-		"advhit": 6,
-		"advguard": 2,
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -995,9 +991,9 @@
 		],
 		"properties": [],
 		"power": "medium",
-		"frames": 12,
-		"advhit": 6,
-		"advguard": 2,
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 4,
 		"barehand": false,
 		"sword": true
 	},
@@ -1066,8 +1062,8 @@
 		"properties": [],
 		"power": "medium",
 		"frames": 12,
-		"advhit": 6,
-		"advguard": 2,
+		"advhit": 7,
+		"advguard": 3,
 		"barehand": true,
 		"sword": true
 	},
@@ -1137,7 +1133,7 @@
 		"power": "medium",
 		"frames": 12,
 		"advhit": 7,
-		"advguard": 1,
+		"advguard": 3,
 		"barehand": true,
 		"sword": true
 	},
@@ -1161,8 +1157,8 @@
 		"properties": [],
 		"power": "medium",
 		"frames": 12,
-		"advhit": 5,
-		"advguard": 2,
+		"advhit": 6,
+		"advguard": 3,
 		"barehand": true,
 		"sword": true
 	},
@@ -1170,7 +1166,7 @@
 		"name": "Rabbit Punch",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -1195,7 +1191,7 @@
 		"name": "Rabbit Punch",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -1214,7 +1210,7 @@
 	{
 		"name": "Soto-uke",
 		"style": "windfall",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -1239,7 +1235,7 @@
 	{
 		"name": "Soto-uke",
 		"style": "windfall",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -1277,7 +1273,7 @@
 		"power": "medium",
 		"frames": 12,
 		"advhit": 6,
-		"advguard": 2,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -1297,7 +1293,7 @@
 		"power": "medium",
 		"frames": 12,
 		"advhit": 6,
-		"advguard": 2,
+		"advguard": 4,
 		"barehand": false,
 		"sword": true
 	},
@@ -1367,7 +1363,7 @@
 		"power": "medium",
 		"frames": 12,
 		"advhit": 6,
-		"advguard": 2,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -1457,7 +1453,7 @@
 		"name": "Rising Slash",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -1496,7 +1492,7 @@
 	{
 		"name": "Straight Punch",
 		"style": "forsaken",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -1521,7 +1517,7 @@
 	{
 		"name": "Straight Punch",
 		"style": "forsaken",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -1586,7 +1582,7 @@
 	{
 		"name": "Elbow Stumble",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -1690,20 +1686,18 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
-		"power": "light",
+		"properties": [],
+		"power": "medium",
 		"frames": 13,
-		"advhit": 5,
-		"advguard": 0,
+		"advhit": 7,
+		"advguard": 3,
 		"barehand": true,
 		"sword": true
 	},
 	{
 		"name": "Parry & Strike",
 		"style": "forsaken",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -1717,13 +1711,11 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"parry"
-		],
-		"power": "light",
+		"properties": [],
+		"power": "medium",
 		"frames": 13,
 		"advhit": 7,
-		"advguard": 2,
+		"advguard": 3,
 		"barehand": true,
 		"sword": false
 	},
@@ -1739,13 +1731,11 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"parry"
-		],
-		"power": "light",
+		"properties": [],
+		"power": "medium",
 		"frames": 13,
 		"advhit": 7,
-		"advguard": 2,
+		"advguard": 3,
 		"barehand": false,
 		"sword": true
 	},
@@ -1770,7 +1760,7 @@
 		"power": "medium",
 		"frames": 13,
 		"advhit": 7,
-		"advguard": 2,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -1790,7 +1780,7 @@
 		"power": "medium",
 		"frames": 13,
 		"advhit": 7,
-		"advguard": 2,
+		"advguard": 4,
 		"barehand": false,
 		"sword": true
 	},
@@ -1840,7 +1830,7 @@
 		"power": "medium",
 		"frames": 13,
 		"advhit": 6,
-		"advguard": 3,
+		"advguard": 5,
 		"barehand": true,
 		"sword": true
 	},
@@ -1870,7 +1860,7 @@
 		"name": "Upper Backfist",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -1895,7 +1885,7 @@
 		"name": "Upper Backfist",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -2245,7 +2235,7 @@
 		"name": "Donkey Slap",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -2272,7 +2262,7 @@
 		"name": "Donkey Slap",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -2357,8 +2347,8 @@
 		],
 		"power": "medium",
 		"frames": 14,
-		"advhit": 7,
-		"advguard": 1,
+		"advhit": 8,
+		"advguard": 5,
 		"barehand": true,
 		"sword": false
 	},
@@ -2384,7 +2374,7 @@
 		],
 		"power": "medium",
 		"frames": 14,
-		"advhit": 7,
+		"advhit": 8,
 		"advguard": 4,
 		"barehand": true,
 		"sword": false
@@ -2393,7 +2383,7 @@
 		"name": "Double Spike Kick",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -2480,13 +2470,11 @@
 				"hit": "R"
 			}
 		],
-		"properties": [
-			"ducking"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 14,
-		"advhit": 5,
-		"advguard": 2,
+		"advhit": 7,
+		"advguard": 4,
 		"barehand": true,
 		"sword": true
 	},
@@ -2582,7 +2570,7 @@
 		"properties": [],
 		"power": "medium",
 		"frames": 14,
-		"advhit": 6,
+		"advhit": 7,
 		"advguard": 4,
 		"barehand": true,
 		"sword": false
@@ -2613,7 +2601,7 @@
 		"name": "Gokai Slash",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -2648,9 +2636,9 @@
 		],
 		"properties": [],
 		"power": "medium",
-		"frames": 14,
+		"frames": 15,
 		"advhit": 7,
-		"advguard": 3,
+		"advguard": 5,
 		"barehand": true,
 		"sword": true
 	},
@@ -2675,7 +2663,7 @@
 		"power": "medium",
 		"frames": 14,
 		"advhit": 6,
-		"advguard": 4,
+		"advguard": 5,
 		"barehand": true,
 		"sword": true
 	},
@@ -2757,7 +2745,7 @@
 		"name": "Mill Slash",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -2779,7 +2767,7 @@
 		"name": "Reverse Rising Slash",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -2799,7 +2787,7 @@
 		"name": "Reverse Twist Slash",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -2841,7 +2829,7 @@
 		"name": "Toreador Slash",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -2863,7 +2851,7 @@
 		"name": "Up Slash",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -2903,7 +2891,7 @@
 		"name": "Curled Up Uppercut",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -2928,7 +2916,7 @@
 		"name": "Curled Up Uppercut",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -2994,7 +2982,7 @@
 	{
 		"name": "Eye Poke",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -3035,13 +3023,11 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"ducking"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 15,
-		"advhit": 6,
-		"advguard": 2,
+		"advhit": 7,
+		"advguard": 5,
 		"barehand": true,
 		"sword": true
 	},
@@ -3063,13 +3049,12 @@
 			}
 		],
 		"properties": [
-			"ducking",
 			"double"
 		],
 		"power": "medium",
 		"frames": 15,
 		"advhit": 7,
-		"advguard": -1,
+		"advguard": 3,
 		"barehand": true,
 		"sword": true
 	},
@@ -3077,7 +3062,7 @@
 		"name": "Reaching Mawashi",
 		"style": "faejin",
 		"vert": "high",
-		"horiz": "thrust",
+		"horiz": "horiz",
 		"stances": [
 			{
 				"start": "FR",
@@ -3093,7 +3078,7 @@
 		"properties": [],
 		"power": "medium",
 		"frames": 15,
-		"advhit": 9,
+		"advhit": 8,
 		"advguard": 4,
 		"barehand": true,
 		"sword": true
@@ -3102,7 +3087,7 @@
 		"name": "Rising Kick",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -3144,7 +3129,7 @@
 		"power": "medium",
 		"frames": 15,
 		"advhit": 8,
-		"advguard": 3,
+		"advguard": 4,
 		"barehand": true,
 		"sword": true
 	},
@@ -3192,7 +3177,7 @@
 		"name": "Wrist Roll Slash",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -3212,7 +3197,7 @@
 		"name": "Roll Back Fist",
 		"style": "windfall",
 		"vert": "high",
-		"horiz": "thrust",
+		"horiz": "horiz",
 		"stances": [
 			{
 				"start": "FR",
@@ -3225,13 +3210,11 @@
 				"hit": "R"
 			}
 		],
-		"properties": [
-			"strafing"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 16,
 		"advhit": 8,
-		"advguard": 2,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -3309,7 +3292,7 @@
 	{
 		"name": "Bounce Knee",
 		"style": "kahlt",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -3323,9 +3306,7 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 16,
 		"advhit": 9,
@@ -3337,7 +3318,7 @@
 		"name": "Cleaver Blow",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -3353,7 +3334,7 @@
 		"properties": [],
 		"power": "strong",
 		"frames": 16,
-		"advhit": 10,
+		"advhit": 9,
 		"advguard": 4,
 		"barehand": true,
 		"sword": false
@@ -3362,7 +3343,7 @@
 		"name": "Cleaver Blow",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -3373,7 +3354,7 @@
 		"properties": [],
 		"power": "strong",
 		"frames": 16,
-		"advhit": 10,
+		"advhit": 9,
 		"advguard": 4,
 		"barehand": false,
 		"sword": true
@@ -3382,7 +3363,7 @@
 		"name": "Keen Crouch",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -3404,7 +3385,7 @@
 		"name": "Head Splitter",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -3424,7 +3405,7 @@
 		"name": "Jumping Risekick",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -3437,9 +3418,7 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 16,
 		"advhit": 10,
@@ -3489,13 +3468,11 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 16,
 		"advhit": 8,
-		"advguard": 3,
+		"advguard": 6,
 		"barehand": true,
 		"sword": true
 	},
@@ -3517,13 +3494,12 @@
 			}
 		],
 		"properties": [
-			"ducking",
 			"double"
 		],
 		"power": "medium",
 		"frames": 16,
-		"advhit": 7,
-		"advguard": 1,
+		"advhit": 8,
+		"advguard": 4,
 		"barehand": true,
 		"sword": true
 	},
@@ -3531,7 +3507,7 @@
 		"name": "Arc Slash",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -3682,7 +3658,7 @@
 		"power": "medium",
 		"frames": 17,
 		"advhit": 9,
-		"advguard": 3,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -3704,7 +3680,7 @@
 		"power": "medium",
 		"frames": 17,
 		"advhit": 9,
-		"advguard": 3,
+		"advguard": 0,
 		"barehand": false,
 		"sword": true
 	},
@@ -3756,7 +3732,7 @@
 		"power": "medium",
 		"frames": 17,
 		"advhit": 8,
-		"advguard": 4,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -3806,7 +3782,7 @@
 		"name": "Face Backfist",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -3822,7 +3798,7 @@
 		"properties": [],
 		"power": "strong",
 		"frames": 17,
-		"advhit": 11,
+		"advhit": 10,
 		"advguard": 4,
 		"barehand": true,
 		"sword": false
@@ -3831,7 +3807,7 @@
 		"name": "Face Backfist",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -3851,7 +3827,7 @@
 		"name": "Jackhammer Punch",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -3927,7 +3903,7 @@
 		"name": "Vertical Slash",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -3967,7 +3943,7 @@
 		"name": "Drop Slash",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -3987,7 +3963,7 @@
 		"name": "Spoon Slash",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -4047,7 +4023,7 @@
 		"name": "Rising Double Hand",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -4056,7 +4032,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 17,
@@ -4088,7 +4064,7 @@
 		"power": "strong",
 		"frames": 18,
 		"advhit": 9,
-		"advguard": 3,
+		"advguard": 0,
 		"barehand": true,
 		"sword": true
 	},
@@ -4096,7 +4072,7 @@
 		"name": "Illusion Twist Kick",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -4109,13 +4085,11 @@
 				"hit": "R"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "strong",
 		"frames": 18,
-		"advhit": 12,
-		"advguard": 3,
+		"advhit": 10,
+		"advguard": 4,
 		"barehand": true,
 		"sword": true
 	},
@@ -4142,7 +4116,7 @@
 		"power": "strong",
 		"frames": 18,
 		"advhit": 9,
-		"advguard": 3,
+		"advguard": 0,
 		"barehand": true,
 		"sword": true
 	},
@@ -4166,7 +4140,7 @@
 		"properties": [],
 		"power": "strong",
 		"frames": 18,
-		"advhit": 10,
+		"advhit": 11,
 		"advguard": 4,
 		"barehand": true,
 		"sword": true
@@ -4188,9 +4162,7 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 18,
 		"advhit": 9,
@@ -4227,7 +4199,7 @@
 		"name": "Rising Spin Slash",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -4265,8 +4237,8 @@
 		],
 		"power": "strong",
 		"frames": 18,
-		"advhit": 10,
-		"advguard": 4,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -4287,8 +4259,8 @@
 		],
 		"power": "strong",
 		"frames": 18,
-		"advhit": 10,
-		"advguard": 4,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": false,
 		"sword": true
 	},
@@ -4340,7 +4312,7 @@
 		"name": "Overhead Slash",
 		"style": "faejin",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -4360,7 +4332,7 @@
 		"name": "Pommel Bash",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -4369,7 +4341,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 18,
@@ -4402,7 +4374,7 @@
 		"name": "Reverse Rising Thrust",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -4460,8 +4432,8 @@
 		],
 		"power": "strong",
 		"frames": 19,
-		"advhit": 11,
-		"advguard": 4,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -4482,8 +4454,8 @@
 		],
 		"power": "strong",
 		"frames": 19,
-		"advhit": 11,
-		"advguard": 4,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": false,
 		"sword": true
 	},
@@ -4507,7 +4479,7 @@
 		"properties": [],
 		"power": "strong",
 		"frames": 19,
-		"advhit": 11,
+		"advhit": 12,
 		"advguard": 4,
 		"barehand": true,
 		"sword": true
@@ -4516,7 +4488,7 @@
 		"name": "Pushed Back Kick",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -4530,12 +4502,12 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 19,
-		"advhit": 11,
-		"advguard": 11,
+		"advhit": 12,
+		"advguard": 12,
 		"barehand": true,
 		"sword": true
 	},
@@ -4565,7 +4537,7 @@
 		"name": "Axe Kick",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -4581,8 +4553,8 @@
 		"properties": [],
 		"power": "strong",
 		"frames": 20,
-		"advhit": 11,
-		"advguard": 7,
+		"advhit": 12,
+		"advguard": 6,
 		"barehand": true,
 		"sword": false
 	},
@@ -4590,7 +4562,7 @@
 		"name": "Axe Kick",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -4610,7 +4582,7 @@
 		"name": "Knee Strike",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -4624,8 +4596,7 @@
 			}
 		],
 		"properties": [
-			"breaking",
-			"jumping"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 20,
@@ -4637,7 +4608,7 @@
 	{
 		"name": "Drunken Smash",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -4677,7 +4648,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 20,
@@ -4690,7 +4661,7 @@
 		"name": "Twist Hips Slash",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -4780,7 +4751,7 @@
 		"name": "Hammer Kick",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -4794,7 +4765,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 20,
@@ -4843,7 +4814,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 20,
@@ -4865,7 +4836,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 20,
@@ -4940,12 +4911,10 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"parry"
-		],
+		"properties": [],
 		"power": "medium",
 		"frames": 20,
-		"advhit": 9,
+		"advhit": 12,
 		"advguard": 4,
 		"barehand": true,
 		"sword": false
@@ -5011,13 +4980,11 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "strong",
 		"frames": 21,
-		"advhit": 12,
-		"advguard": -1,
+		"advhit": 13,
+		"advguard": 5,
 		"barehand": true,
 		"sword": true
 	},
@@ -5025,7 +4992,7 @@
 		"name": "Jump Out Elbow",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -5039,7 +5006,7 @@
 			}
 		],
 		"properties": [
-			"breaking",
+			"stopping",
 			"jumping"
 		],
 		"power": "strong",
@@ -5053,7 +5020,7 @@
 		"name": "Jump Out Elbow",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -5062,7 +5029,7 @@
 			}
 		],
 		"properties": [
-			"breaking",
+			"stopping",
 			"jumping"
 		],
 		"power": "strong",
@@ -5089,20 +5056,18 @@
 				"hit": "R"
 			}
 		],
-		"properties": [
-			"strafing"
-		],
+		"properties": [],
 		"power": "strong",
 		"frames": 21,
-		"advhit": 13,
-		"advguard": 5,
+		"advhit": 12,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
 	{
 		"name": "Grab Punch",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -5121,8 +5086,8 @@
 		],
 		"power": "strong",
 		"frames": 21,
-		"advhit": 11,
-		"advguard": 3,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -5151,7 +5116,7 @@
 	{
 		"name": "Hadrunken",
 		"style": "stagger",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -5170,8 +5135,8 @@
 		],
 		"power": "strong",
 		"frames": 21,
-		"advhit": 10,
-		"advguard": 4,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -5179,7 +5144,7 @@
 		"name": "Swirl Slash",
 		"style": "windfall",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -5188,7 +5153,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 21,
@@ -5246,7 +5211,7 @@
 		"name": "Buchinmo",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -5310,7 +5275,7 @@
 		"name": "Stumble Slash",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BR",
@@ -5330,7 +5295,7 @@
 		"name": "Charged Haymaker",
 		"style": "kahlt",
 		"vert": "high",
-		"horiz": "thrust",
+		"horiz": "horiz",
 		"stances": [
 			{
 				"start": "FR",
@@ -5348,8 +5313,8 @@
 		],
 		"power": "strong",
 		"frames": 22,
-		"advhit": 10,
-		"advguard": 5,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -5357,7 +5322,7 @@
 		"name": "Charged Haymaker",
 		"style": "kahlt",
 		"vert": "high",
-		"horiz": "thrust",
+		"horiz": "horiz",
 		"stances": [
 			{
 				"start": "FL",
@@ -5370,15 +5335,15 @@
 		],
 		"power": "strong",
 		"frames": 22,
-		"advhit": 10,
-		"advguard": 5,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": false,
 		"sword": true
 	},
 	{
 		"name": "Falcon Punch",
 		"style": "forsaken",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -5392,9 +5357,7 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "strong",
 		"frames": 22,
 		"advhit": 13,
@@ -5428,7 +5391,7 @@
 		"name": "Furious Uppercut",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FR",
@@ -5446,8 +5409,8 @@
 		],
 		"power": "strong",
 		"frames": 22,
-		"advhit": 12,
-		"advguard": 3,
+		"advhit": 9,
+		"advguard": 0,
 		"barehand": true,
 		"sword": false
 	},
@@ -5455,7 +5418,7 @@
 		"name": "Furious Uppercut",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -5522,7 +5485,7 @@
 		"name": "Obvious Slash",
 		"style": "stagger",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -5584,7 +5547,7 @@
 		"name": "Thunder Slash",
 		"style": "forsaken",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "BL",
@@ -5642,9 +5605,7 @@
 				"hit": "L"
 			}
 		],
-		"properties": [
-			"jumping"
-		],
+		"properties": [],
 		"power": "strong",
 		"frames": 23,
 		"advhit": 12,
@@ -5673,7 +5634,7 @@
 		"power": "strong",
 		"frames": 23,
 		"advhit": 14,
-		"advguard": 3,
+		"advguard": 4,
 		"barehand": true,
 		"sword": false
 	},
@@ -5700,7 +5661,7 @@
 	{
 		"name": "Upper Elbow",
 		"style": "kahlt",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -5746,7 +5707,7 @@
 		"name": "Body Slicing",
 		"style": "kahlt",
 		"vert": "mid",
-		"horiz": "vert",
+		"horiz": "thrust",
 		"stances": [
 			{
 				"start": "FL",
@@ -5755,7 +5716,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 23,
@@ -5767,7 +5728,7 @@
 	{
 		"name": "Collar Chop",
 		"style": "windfall",
-		"vert": "high",
+		"vert": "mid",
 		"horiz": "thrust",
 		"stances": [
 			{
@@ -5782,7 +5743,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 24,
@@ -5804,7 +5765,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 24,
@@ -5831,7 +5792,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 24,
@@ -5853,7 +5814,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 24,
@@ -5880,7 +5841,7 @@
 			}
 		],
 		"properties": [
-			"breaking"
+			"stopping"
 		],
 		"power": "strong",
 		"frames": 24,
